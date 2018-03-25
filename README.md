@@ -4,4 +4,16 @@ The Dataset used is coming from the [UCI Machine Learning Repository](http://arc
 
 The Project entails doing research on the Iris Data and collect background information, writing a Summary of the Data Set. Summarise the dataset by writing Python Scripts.  Need to create Supporting details like Tables, graphics which could easily explain what we are trying to bring forward with visual representation.
 
-The Fisher's Isis Data set is also called Iris Flower Data Set, which helps in understanding the different aims and background ![alt Ronald Fisher](https://github.com/cdigap/Python_Project_2018/blob/master/Images/R._A._Fischer.jpg) of each of  the different forms of the observations and analysis.  This Data Set was introduced by the British Statistician and biologist Ronald Fisher in 1936. It is sometimes also referred as Anderson's Iris data set as Edgar Anderson collected the data to quantify the form and stucture of the organisms and their specific structural features([Morphology](https://en.wikipedia.org/wiki/Morphology_(biology))).
+The Fisher's Isis Data set is also called Iris Flower Data Set, which helps in understanding the different aims and background ![Ronald Fisher](https://github.com/cdigap/Python_Project_2018/blob/master/Images/R._A._Fischer.jpg) of each of  the different forms of the observations and analysis.  This Data Set was introduced by the British Statistician and biologist Ronald Fisher in 1936. It is sometimes also referred as Anderson's Iris data set as Edgar Anderson collected the data to quantify the form and stucture of the organisms and their specific structural features([Morphology](https://en.wikipedia.org/wiki/Morphology_(biology))).
+
+## Description
+
+The data collected is of 3 species of *iris* flowers, they are Iris setosa, Iris Versicolor and Iris Virginica.
+
+<img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Setosa.jpg" width="256" height="256" title="Iris setosa"> <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Versicolor.jpg" width="256" height="256" title="Iris Versicolor"> <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_virginica.jpg" width="256" height="256" title="Iris Virginica">
+
+The measurements of 50 flowers were taken in Centimeters of variables of below mentioned 4 features. 
+* Sepal Length 
+* Sepal Width
+* Petal Lenght 
+* Petal Width
