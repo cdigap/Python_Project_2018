@@ -17,3 +17,9 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
 * Sepal Width
 * Petal Lenght 
 * Petal Width
+
+
+## Reference
+* https://pythonprogramming.net/loading-file-data-matplotlib-tutorial/ - For Plotting graphs
+* https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib -  for Different color for different attributes
+* https://youtu.be/WbTOutpwPHs Good Videos on how to work with Matplotlip.pyplot 
