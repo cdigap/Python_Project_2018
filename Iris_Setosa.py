@@ -27,7 +27,7 @@ def avg(S,C):
     avg = 0
     avg = S/C
 
-    return avg
+    return round(avg,2)
 
 with open('iris_data.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
