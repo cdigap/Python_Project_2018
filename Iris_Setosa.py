@@ -33,13 +33,13 @@ with open('iris_data.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
        if row[4] == "Iris-setosa":
-           x.append(float(row[1]))
-           y.append(float(row[0]))
+           x.append(float(row[0]))
+           y.append(float(row[1]))
            a.append(float(row[2]))
            b.append(float(row[3]))
            count += 1
-           sl += float(row[1])
-           sw += float(row[0])
+           sl += float(row[0])
+           sw += float(row[1])
            pl += float(row[2])
            pw += float(row[3])
             
