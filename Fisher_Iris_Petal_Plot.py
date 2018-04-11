@@ -18,14 +18,14 @@ with open('iris_data.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
        if row[4] == "Iris-setosa":
-           x.append(float(row[3]))
-           y.append(float(row[2]))
+           x.append(float(row[2]))
+           y.append(float(row[3]))
        if row[4] == "Iris-versicolor":
-           a.append(float(row[3]))
-           b.append(float(row[2]))
+           a.append(float(row[2]))
+           b.append(float(row[3]))
        if row[4] == "Iris-virginica":
-           c.append(float(row[3]))
-           d.append(float(row[2]))
+           c.append(float(row[2]))
+           d.append(float(row[3]))
 
 plt.scatter(x,y, marker="*",label='Iris-setosa Details',color=['red','yellow'])
 plt.ylabel('Petal Length')
