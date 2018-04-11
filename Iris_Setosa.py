@@ -1,0 +1,59 @@
+# Ashok Gangadharan 2018-04-09
+# Python Project...
+# 
+# Plotting Graph for the different Iris Setosa flower , Average Sepal & Petal data
+#
+
+import matplotlib.pyplot as plt
+import csv
+
+x = []
+y = []
+a = []
+b = []
+count = 0
+sl = 0
+sw = 0
+pl = 0
+pw = 0
+asl = 0
+asw = 0
+apl = 0
+apw = 0
+
+
+def avg(S,C):
+    """This Function returns the average of the numbers given"""
+    avg = 0
+    avg = S/C
+
+    return avg
+
+with open('iris_data.csv','r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+    for row in plots:
+       if row[4] == "Iris-setosa":
+           x.append(float(row[1]))
+           y.append(float(row[0]))
+           a.append(float(row[2]))
+           b.append(float(row[3]))
+           count += 1
+           sl += float(row[1])
+           sw += float(row[0])
+           pl += float(row[2])
+           pw += float(row[3])
+            
+asl = avg(sl,count)
+asw = avg(sw,count)
+apl = avg(pl,count)
+apw = avg(pw,count)
+
+# calling plt to create a scatter graph
+
+plt.scatter(asl,asw, marker="^", label='Iris-Setosa',color=['red','green'])
+
+plt.ylabel('Sepal Length')
+plt.xlabel('Sepal Width')
+plt.title('Fishers Iris Data')
+plt.legend()
+plt.show()
