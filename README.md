@@ -29,3 +29,6 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Sepal.png" width="256" height="256" title="Iris Sepal Graph">
 * Fisher_Iris_Petal_Plot.py -  is a Script that will Open the iris_data.csv file using the **csv** library and will read the Petal length and Petal Width of the different Iris Flowers and create a Scatter graph to explain how each of the flowers differ.
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Petal.png" width="256" height="256" title="Iris Petal Graph">
+* Calculating the Average of the Sepal and Petal data for different flowers and plotting a graph accordingly.
+  * Iris_setosa.py - The Script calculates the average of sepal and petal data and plots a scatter graph.
+    <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Setosa.png" width="256" height="256" title="Iris Petal Graph">
