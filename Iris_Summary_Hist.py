@@ -52,7 +52,7 @@ with open('iris_data.csv','r') as csvfile:
            vpl += float(row[2])
            vpw += float(row[3])  
 
-print('after Loop : ')
+# print('after Loop : ')
 
 asl = avg(sl,count)
 asw = avg(sw,count)
