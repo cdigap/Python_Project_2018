@@ -54,10 +54,6 @@ wid.append(apw)
 
 plt.scatter(lent,wid, marker="o", label='Sepal',color=['purple', 'pink'])
 
-# plt.scatter(apl,apw, marker="*", label='Petal',color=['gray'])
-
-print(lent,' ',wid)
-
 plt.ylabel('Length')
 plt.xlabel('Width')
 plt.title('Fishers Iris Data\n Iris-Versicolor')
