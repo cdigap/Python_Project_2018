@@ -1,25 +1,40 @@
 # Ashok Gangadharan 2018-04-13
 # Python Project...
 # 
-# Plotting Histogram for the different Iris Setosa flower , Average Sepal & Petal data
+# Plotting Graph for the different Iris Setosa flower , Average Sepal & Petal data
 #
 
 import matplotlib.pyplot as plt
 import csv
 
-x = []
-y = []
-a = []
-b = []
+# Species Specific arrays
+xsl = []
+ypl = []
+xsw = []
+ypw = []
+
+# count for getting the number of records
 count = acount = bcount = 0
+
+# Sepal and Petal Data - Versicolor
 sl = sw = pl = pw = 0
+
+# Sepal and Petal Data - Setosa
 vsl = vsw = vpl = vpw = 0
+
+# Sepal and Petal Data - Virginica
 ssl = ssw = spl = spw = 0
 
+# Average Sepal and Petal Data - Versicolor
 asl = asw = apl = apw = 0
+
+# Average Sepal and Petal Data - Setosa
 avsl = avsw = avpl = avpw = 0
+
+# Average Sepal and Petal Data - Virginica
 assl = assw = aspl = aspw = 0
 
+# Over all Average Sepal and Petal Data - All
 lent = []
 wid = []
 
@@ -28,6 +43,7 @@ def avg(S,C):
     avg = 0
     avg = S/C
 
+# Returns the rounded to 2 decimal places...
     return round(avg,2)
 
 with open('iris_data.csv','r') as csvfile:
@@ -52,41 +68,65 @@ with open('iris_data.csv','r') as csvfile:
            vpl += float(row[2])
            vpw += float(row[3])  
 
-# print('after Loop : ')
 
+# Calculating Average and Assigning Sepal and Petal Data into the variables - Versicolor
 asl = avg(sl,count)
 asw = avg(sw,count)
 apl = avg(pl,count)
 apw = avg(pw,count)
 
+# Appending Sepal and Petal data into the Over all Lenght and Width Array, lent and wid respectively - Versicolor
 lent.append(asl)
 lent.append(apl)
 wid.append(asw)
 wid.append(apw)
 
+# Appending Sepal and Petal data into the Lenght and Width Array, lent and wid respectively - Versicolor
+xsl.append(asl)
+xsw.append(asw)
+ypl.append(apl)
+ypw.append(apw)
+
+# Calculating Average and Assigning Sepal and Petal Data into the variables - Setosa
 assl = avg(ssl,acount)
 assw = avg(ssw,acount)
 aspl = avg(spl,acount)
 aspw = avg(spw,acount)
 
+# Appending Sepal and Petal data into the Over all Lenght and Width Array, lent and wid respectively - Setosa
 lent.append(assl)
 lent.append(aspl)
 wid.append(assw)
 wid.append(aspw)
 
+# Appending Sepal and Petal data into the Lenght and Width Array, lent and wid respectively - Setosa
+xsl.append(assl)
+xsw.append(assw)
+ypl.append(aspl)
+ypw.append(aspw)
+
+# Calculating Average and Assigning Sepal and Petal Data into the variables - Virginica
 avsl = avg(vsl,bcount)
 avsw = avg(vsw,bcount)
 avpl = avg(vpl,bcount)
 avpw = avg(vpw,bcount)
 
+# Appending Sepal and Petal data into the Over all Lenght and Width Array, lent and wid respectively - Virginica
 lent.append(avsl)
 lent.append(avpl)
 wid.append(avsw)
 wid.append(avpw)
 
+# Appending Sepal and Petal data into the Lenght and Width Array, lent and wid respectively - Virginica
+xsl.append(avsl)
+xsw.append(avsw)
+ypl.append(avpl)
+ypw.append(avpw)
+
 # calling plt to create a Histogram for the average of all the three type of Iris flowers
 
 plt.hist([lent, wid], bins=6, rwidth=0.80, color=['red','blue'], label=['Sepal & Petal Width','Sepal & Petal Length'])
+
 
 plt.ylabel('Count')
 plt.xlabel('Average Width and Length')
