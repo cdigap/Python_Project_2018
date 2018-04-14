@@ -41,7 +41,8 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
     <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_virginica.png" width="256" height="256" title="Iris Petal Graph">
 
  * Iris_Summary_Sct.py - The script that calculates the average of Sepal and petal data and plots an overall Scatter graph for all the 3 different types of Iris flowers.
-   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Summary_Sct.png" width="256" height="256" title="Iris Petal Graph">
+ 
+    <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Summary_Sct.png" width="256" height="256" title="Iris Petal Graph">
 
 * Histogram Graphs to show sets of Data per Flower and a summary.
   * Iris_Summary_Hist.py - The script that calculates the average of Sepal and petal data and plots an overall Histogram for all the 3 different types of Iris flowers.
