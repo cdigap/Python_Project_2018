@@ -40,7 +40,7 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
   * Iris_virginica.py - The Script calculates the average of sepal and petal data and plots a scatter graph.
     <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_virginica.png" width="256" height="256" title="Iris Petal Graph">
 
- * Iris_Summary_Sct.py - The script that calculates the average of Sepal and petal data and plots an overall Scatter graph for all the 3 different types of Iris flowers.
+  * Iris_Summary_Sct.py - The script that calculates the average of Sepal and petal data and plots an overall Scatter graph for all the 3 different types of Iris flowers.
  
     <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Summary_Sct.png" width="256" height="256" title="Iris Petal Graph">
 
