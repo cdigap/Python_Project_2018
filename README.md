@@ -22,7 +22,8 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
 ## Reference
 * https://pythonprogramming.net/loading-file-data-matplotlib-tutorial/ - For Plotting graphs
 * https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib -  for Different color for different attributes
-* https://youtu.be/WbTOutpwPHs Good Videos on how to work with Matplotlip.pyplot 
+* https://youtu.be/WbTOutpwPHs Good Videos on how to work with Matplotlip.pyplot
+* https://matplotlib.org/2.0.2/api/colors_api.html - Colors
 
 ## Python Scripts 
 * Fisher_Iris_Sepal_Plot.py -  is a Script that will Open the iris_data.csv file using the **csv** library and will read the Sepal length and Sepal Width of the different Iris Flowers and create a Scatter graph to explain how each of the flowers differ. 
