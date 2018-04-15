@@ -48,3 +48,5 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
   * Iris_Summary_Hist.py - The script that calculates the average of Sepal and petal data and plots an overall Histogram for all the 3 different types of Iris flowers.
      
      <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Iris_Summary_Hist.png" width="256" height="256" title="Iris Petal Graph">
+### Iris_Data_Analysis.py 
+* This Script generates a lot analytical information for the given Iris_data.csv file.
