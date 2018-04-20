@@ -6,7 +6,7 @@
 import numpy as np
 import pandas as pd 
 
-from pandas.tools.plotting import scatter_matrix
+from pandas.plotting import scatter_matrix
 
 import matplotlib.pyplot as plt
 
@@ -24,19 +24,18 @@ data_file = pd.read_csv(dfile,names=colms)
 #mpl = data_file[2].mean()
 #mpw = data_file[3].mean()
 
+data_file.info()
 print(data_file.groupby('Species').size())
 print(data_file.describe())
 
 data_file.plot(kind='box', subplots = True, layout = (2,2), sharex = False, sharey = False)
 
-plt.show()
+#plt.show()
 
 data_file.hist()
 
-plt.show()
+#plt.show()
 
 scatter_matrix(data_file)
-
-# data_file.info()
 
 plt.show()
