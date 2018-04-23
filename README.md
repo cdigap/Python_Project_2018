@@ -52,5 +52,5 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
 * This Script generates analytical information for the given Iris_data.csv file. The Script will generate a Data Frame with the details of each columns identified. The scripts generates different graphs to show the distribution of the dimensions.
 ### Iris_Data_Analysis_Menu.py
 * This script helps the user by menu to easily handle what the user wants to see. The menu is as follows.
-  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Menu.png" width="256" height="256" title="Menu">
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Menu.png" width="256" height="175" title="Menu">
 
