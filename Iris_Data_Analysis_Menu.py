@@ -24,10 +24,11 @@ def menu():
     print('1. View Info')
     print('2. View Summary')
     print('3. View Full Data')
-    print('4. Plot Box Chart')
-    print('5. Plot Histogram')
-    print('6. Plot Scatter Matrix')
-    print('7. Exit')
+    print('4. Plot Box Chart - Summary')
+    print('5. Plot Box Chart - Each dimensions by Species')
+    print('6. Plot Histogram')
+    print('7. Plot Scatter Matrix')
+    print('8. Exit')
 
 
     
@@ -42,15 +43,28 @@ while True:
         elif user_input == 3:
             print(data_file)
         elif user_input == 4:
-            data_file.plot(kind='box', subplots = True, layout = (1,4), sharex = False, sharey = False)
+            data_file.plot(kind='box', subplots = True, layout = (1,4), sharex = False, sharey = False, title = 'Summary Box Plot', figsize = (12,9))
             plt.show()
         elif user_input == 5:
-            data_file.hist(bins=15)
+            fig, ax = plt.subplots()
+            data_file.boxplot(column=['Sepal_Length'], by='Species', ax=ax)
+
+            fig, ax = plt.subplots()
+            data_file.boxplot(column=['Petal_Length'], by='Species', ax=ax)
+
+            fig, ax = plt.subplots()
+            data_file.boxplot(column=['Sepal_Width'], by='Species', ax=ax)
+
+            fig, ax = plt.subplots()
+            data_file.boxplot(column=['Petal_Width'], by='Species', ax=ax)
             plt.show()
         elif user_input == 6:
-            scatter_matrix(data_file)
+            data_file.hist(bins=15)
             plt.show()
         elif user_input == 7:
+            scatter_matrix(data_file)
+            plt.show()
+        elif user_input == 8:
             print('Thank you for using the Project - I hope this was helpfull....')
             break
         else :
