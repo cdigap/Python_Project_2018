@@ -15,7 +15,7 @@ The data collected is of 3 species of *iris* flowers, they are Iris setosa, Iris
 The measurements of 50 flowers were taken in Centimeters of variables of below mentioned 4 features. 
 * Sepal Length 
 * Sepal Width
-* Petal Lenght 
+* Petal Length 
 * Petal Width
 
 ## A High Level Plan
