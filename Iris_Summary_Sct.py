@@ -1,7 +1,7 @@
 # Ashok Gangadharan 2018-04-11
 # Python Project...
 # 
-# Plotting Graph for the different Iris Setosa flower , Average Sepal & Petal data
+# Plotting Scatter plot for the different Iris Setosa flower , Average Sepal & Petal data
 #
 
 import matplotlib.pyplot as plt
