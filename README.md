@@ -21,13 +21,9 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
 ## A High Level Plan
 
 * Week Starting 22nd-April - Write Summary for the project and complete the submission.
-
 * Week Starting 15th-April - Research of better way of plotting the flags and write the scripts accordingly.
-
 * Week Starting 8th-April - Write the initial Scripts for Analyzing Data of Dimensions.
-
 * Week Starting 1st-April - Continue Research and starting writing initial Scripts with Python.
-
 * Week Starting 24/25-March - Research on the Fisher Iris Data set and initiate the project in GitHub.
 
 
