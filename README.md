@@ -132,9 +132,7 @@ plt.show()
 #### Details of each columns identified being generated and displayed.
 data_file.info()
 
-<img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/info.png" width="256" height="256" title="File Info">
-#Displaying the Number of Lines each type/Species of flower has in the file.
-print(data_file.groupby('Species').size())
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Info.png" width="150" height="150" title="File Info">
 
 RangeIndex: 150 entries, 0 to 149
 Data columns (total 5 columns):
