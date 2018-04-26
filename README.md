@@ -27,11 +27,34 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
 * Week Starting 24/25-March - Research on the Fisher Iris Data set and initiate the project in GitHub.
 
 
-## Reference
-* https://pythonprogramming.net/loading-file-data-matplotlib-tutorial/ - For Plotting graphs
-* https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib -  for Different color for different attributes
-* https://youtu.be/WbTOutpwPHs Good Videos on how to work with Matplotlip.pyplot
-* https://matplotlib.org/2.0.2/api/colors_api.html - Colors
+## Process:
+  1.	Research :  on the iris data and understand how to do Data Analysis.
+  2.	Load iris data directly with Python.
+  3.	Analysis the data.
+  4.	Visual Representation of Data.
+
+
+### Research :
+* What is Data Analysis ?
+  Data analytics is the pursuit of extracting meaning from raw data using specialized computer systems. These systems transform, 
+  organize, and model the data to draw conclusions and identify patterns.
+  
+  By the definition it can be simple to a very complex algorithm that have developed for different data handling Challenges.
+  So for me to the project was to do data Analytics using Python and see what are the different types of patterns / differences or 
+  unique features does the iris data set contribute.
+
+*	Load iris data directly with Python.
+    
+    a.	During initial analysis I found that we can use the csv library to import the txt file and as we know the delimiter used the csv library and imported the matplotlib.pyplot library to plot some graphs.
+       
+        i. Import csv
+        ii. Import matplotlib.pyplot as plt
+          
+            Opening file 
+            with open('iris_data.csv','r') as csvfile:
+
+            Then Start analysing the data. I wrote the a few scripts below – 
+
 
 ## Python Scripts 
 * Fisher_Iris_Sepal_Plot.py -  is a Script that will Open the iris_data.csv file using the **csv** library and will read the Sepal length and Sepal Width of the different Iris Flowers and create a Scatter graph to explain how each of the flowers differ. 
@@ -62,3 +85,10 @@ The measurements of 50 flowers were taken in Centimeters of variables of below m
 * This script helps the user by menu to easily handle what the user wants to see. The menu is as follows.
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Menu.png" width="256" height="175" title="Menu">
 
+
+
+## Reference
+* https://pythonprogramming.net/loading-file-data-matplotlib-tutorial/ - For Plotting graphs
+* https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib -  for Different color for different attributes
+* https://youtu.be/WbTOutpwPHs Good Videos on how to work with Matplotlip.pyplot
+* https://matplotlib.org/2.0.2/api/colors_api.html - Colors
