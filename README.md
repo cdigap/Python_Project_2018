@@ -98,15 +98,15 @@ colms = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species']
 data_file.info()
 
 
-# Displaying the description of file Like the Cout, Mean, Standard deviation, 
-# Minimum and Maximum (length and Width) 
-print(data_file.describe())
+*Displaying the description of file Like the Cout, Mean, Standard deviation,* 
+*Minimum and Maximum (length and Width)*
+print(data_file.describe())*
 
-# Plots box chart with easily readable/understandable the mean, min and max and the outliers of each flower
+*Plots box chart with easily readable/understandable the mean, min and max and the outliers of each flower*
 data_file.plot(kind='box', subplots = True, layout = (1,4), sharex = False, sharey = False, title='Summary Box Plot')
 
-# Plots for individual Dimentions - Sepal, Petal - Length and Breadth
-# https://stackoverflow.com/questions/18498690/boxplot-with-pandas-groupby
+*Plots for individual Dimentions - Sepal, Petal - Length and Breadth
+https://stackoverflow.com/questions/18498690/boxplot-with-pandas-groupby*
 fig, ax = plt.subplots()
 
 data_file.boxplot(column=['Sepal_Length'], by='Species', ax=ax)
@@ -120,57 +120,39 @@ data_file.boxplot(column=['Sepal_Width'], by='Species', ax=ax)
 fig, ax = plt.subplots()
 data_file.boxplot(column=['Petal_Width'], by='Species', ax=ax)
 
-# Plots a histogram with 15 containers to show the distribution of the flowers dimentions
+*Plots a histogram with 15 containers to show the distribution of the flowers dimentions*
 data_file.hist(bins=15)
 
-#plt.show()
-# Plots a Scatter mattrix chart...
+*plt.show()
+Plots a Scatter mattrix chart...*
 scatter_matrix(data_file)
 
 plt.show()
 
+### *Results or output of the scripts in details with the commands explained below.*
 #### Details of each columns identified being generated and displayed.
-data_file.info()
+data_file.info() 
 
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/info_1.png"  title="File Info">
 
-RangeIndex: 150 entries, 0 to 149
-Data columns (total 5 columns):
-Sepal_Length    150 non-null float64
-Sepal_Width     150 non-null float64
-Petal_Length    150 non-null float64
-Petal_Width     150 non-null float64
-Species         150 non-null object
-dtypes: float64(4), object(1)
-memory usage: 5.9+ KB
 
 ##### Displaying the Number of Lines each type/Species of flower has in the file.
 print(data_file.groupby('Species').size())
-
-Species
-Iris-setosa        50
-Iris-versicolor    50
-Iris-virginica     50
-dtype: int64
+  
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/groupby.png"  title="Group By Species">
+  
 
 #### Displaying the description of file Like the Cout, Mean, Standard deviation, 
 #### Minimum and Maximum (length and Width) 
 print(data_file.describe())
 
-       		    Sepal_Length  Sepal_Width  Petal_Length  Petal_Width
-count    150.000000   150.000000    150.000000   150.000000
-mean       5.843333     3.054000      3.758667     1.198667
-std        0.828066     0.433594      1.764420     0.763161
-min        4.300000     2.000000      1.000000     0.100000
-25%        5.100000     2.800000      1.600000     0.300000
-50%        5.800000     3.000000      4.350000     1.300000
-75%        6.400000     3.300000      5.100000     1.800000
-max        7.900000     4.400000      6.900000     2.500000
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/describe.png"  title="Details of the data">
 
-
+  
 ### Iris_Data_Analysis_Menu.py
 * This script helps the user by menu to easily handle what the user wants to see. The menu is as follows.
-  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Menu.png" width="256" height="175" title="Menu">
+
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Menu.png"  title="Menu">
 
 
 
