@@ -158,6 +158,8 @@ print(data_file.describe())
 
 ## Reference
 * https://pythonprogramming.net/loading-file-data-matplotlib-tutorial/ - For Plotting graphs
-* https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib -  for Different color for different attributes
+* https://stackoverflow.com/questions/12236566/setting-different-color-for-each-series-in-scatter-plot-on-matplotlib -  for Different color for different attributes (Stackover low has been extremely help ful in a lot of different ways.
 * https://youtu.be/WbTOutpwPHs Good Videos on how to work with Matplotlip.pyplot
 * https://matplotlib.org/2.0.2/api/colors_api.html - Colors
+* https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text - Formatting Readme
+* https://gist.github.com/uupaa/f77d2bcf4dc7a294d109 - Image resizing for Readme
