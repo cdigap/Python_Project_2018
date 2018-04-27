@@ -112,20 +112,24 @@ fig, ax = plt.subplots()
 data_file.boxplot(column=['Sepal_Length'], by='Species', ax=ax)
 
 fig, ax = plt.subplots()
+
 data_file.boxplot(column=['Petal_Length'], by='Species', ax=ax)
 
 fig, ax = plt.subplots()
+
 data_file.boxplot(column=['Sepal_Width'], by='Species', ax=ax)
 
 fig, ax = plt.subplots()
+
 data_file.boxplot(column=['Petal_Width'], by='Species', ax=ax)
 
 *Plots a histogram with 15 containers to show the distribution of the flowers dimentions*
+
 data_file.hist(bins=15)
 
-*plt.show()
-Plots a Scatter mattrix chart...*
-scatter_matrix(data_file)
+*Plots a Scatter mattrix chart...*
+  
+  scatter_matrix(data_file)
 
 plt.show()
 
@@ -149,8 +153,24 @@ print(data_file.describe())
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/describe.png"  title="Details of the data">
   
 #### Plots box chart with easily readable/understandable the mean, min and max and the outliers of each flower*
-  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_1.png"  title="Box Chart">
-  
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_1.png"  width="256" height="256" title="Box Chart">
+
+#### Plots for individual Dimentions - Sepal, Petal - Length and Breadth -https://stackoverflow.com/questions/18498690/boxplot-with-pandas-groupby
+
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_2.png"  width="256" height="256" title="Sepal_Length">
+
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_3.png"  width="256" height="256" title="Petal_Length">
+
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_4.png"  width="256" height="256" title="Sepal_Width">
+
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_5.png"  width="256" height="256" title="Petal_Width">
+
+
+#### Plots a histogram with 15 containers to show the distribution of the flowers dimentions
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_6.png"  width="256" height="256" title="Histogram">
+
+#### Plots a Scatter mattrix chart...
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_7.png"  width="256" height="256" title="Histogram">
   
 ### Iris_Data_Analysis_Menu.py
 * This script helps the user by menu to easily handle what the user wants to see. The menu is as follows.
