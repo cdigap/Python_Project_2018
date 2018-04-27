@@ -147,7 +147,10 @@ print(data_file.groupby('Species').size())
 print(data_file.describe())
 
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/describe.png"  title="Details of the data">
-
+  
+#### Plots box chart with easily readable/understandable the mean, min and max and the outliers of each flower*
+  <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Figure_1.png"  title="Box Chart">
+  
   
 ### Iris_Data_Analysis_Menu.py
 * This script helps the user by menu to easily handle what the user wants to see. The menu is as follows.
