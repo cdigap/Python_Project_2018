@@ -178,6 +178,16 @@ print(data_file.describe())
 
   <img src="https://github.com/cdigap/Python_Project_2018/blob/master/Images/Menu.png"  title="Menu">
 
+## Conclusion :
+  From the Data analysis of the Iris Data Set, the most useful variables were petal length and petal width. The sepal length and width  weren’t found useful because they overlapped, this proved very difficult to differentiate between the different Species.  
+  
+  The Mean of the Sepal Length is 5.4 for all the four flowers, Sepal Width is 3.05, Petal Length is 3.75 and the Petal width is 1.20. 
+  
+  The Min of the Sepal Length is 4.3 for all the four flowers, Sepal Width is 2.0, Petal Length is 1.0 and the Petal width is 0.1.
+  
+  The Max of the Sepal Length is 7.9 for all the four flowers, Sepal Width is 4.4, Petal Length is 6.9 and the Petal width is 2.5.
+
+  Virginica was found to be the largest iris while Setosa was found to be the smallest.
 
 
 ## Reference
