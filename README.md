@@ -187,7 +187,7 @@ print(data_file.describe())
   
   The Max of the Sepal Length is 7.9 for all the four flowers, Sepal Width is 4.4, Petal Length is 6.9 and the Petal width is 2.5.
 
-  Virginica was found to be the largest iris while Setosa was found to be the smallest.
+  Virginica is the largest iris while Setosa is the smallest.
 
 
 ## Reference
